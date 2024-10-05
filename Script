@@ -2,7 +2,7 @@
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 repeat task.wait(0.25) until game:IsLoaded();local BoredLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/Lvl9999/Bored/main/Backup"))();
 getgenv().CurrentVersion = "1.02";
-
+getgenv().ToggleUI = "J";
 -- // Anti AFK \\ --
 task.spawn(function()
     if not getgenv().AntiAfk == true then getgenv().AntiAfk = true;
