@@ -18,7 +18,7 @@ end)
 task.spawn(function()BoredLibrary.prompt("Sus Hub  ♦️","Welcome To Mythril Hub :3",1.5);end)
 -----------------------------------[[ Main Ui Libs ]]------------------------------------------------------------------
 local DarkraiX = loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Kavo-Ui/main/Darkrai%20Ui",true))();
-local Library = DarkraiX:Window("               Sus Hub ♦️   ","  A Universal Time ","",Enum.KeyCode[getgenv().ToggleUI]);
+local Library = DarkraiX:Window("               Sus Hub ♦️   ","  A Universal Time [Version "..tostring(getgenv().CurrentVersion).."]","",Enum.KeyCode[getgenv().ToggleUI]);
 -----------------------------------[[ Main Ui Libs ]]------------------------------------------------------------------
 -- // UI Icon Mobile \\ --
 task.spawn(function()
