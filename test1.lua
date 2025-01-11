@@ -685,7 +685,8 @@ function OrionLib:MakeWindow(WindowConfig)
         UICorner.CornerRadius = UDim.new(0,200);
         UICorner.Parent = ImageButton;
         ImageButton.MouseButton1Click:Connect(function()
-            MainWindow.Visible = false
+            MainWindow.Visible = not MainWindow.Visible
+			if MainWindow.Visible == false then
             UIHidden = true
             OrionLib:MakeNotification({
                 Name = "Interface Hidden",
@@ -693,8 +694,6 @@ function OrionLib:MakeWindow(WindowConfig)
                 Time = 5
             })
             WindowConfig.CloseCallback()
-            if Image.MouseButton1Click:Connect() and UIHidden then
-                MainWindow.Visible = true
            end
         end)
         end
