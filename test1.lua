@@ -679,7 +679,7 @@ function OrionLib:MakeWindow(WindowConfig)
         ImageButton.BackgroundTransparency = 0.8
         ImageButton.Position = UDim2.new(0.9,0,0.1,0);
         ImageButton.Size = UDim2.new(0,50,0,50);
-        ImageButton.Image = "rbxassetid://18853503513";
+        ImageButton.Image = "rbxassetid://18228411269";
         ImageButton.Draggable = true;
         ImageButton.Transparency = 1;
         UICorner.CornerRadius = UDim.new(0,200);
