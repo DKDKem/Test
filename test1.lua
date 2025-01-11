@@ -667,7 +667,7 @@ function OrionLib:MakeWindow(WindowConfig)
 	end)
 
     task.spawn(function()
-    if UserInput.TouchEnabled then
+    if UserInputService.TouchEnabled then
         local OpenUI = Instance.new("ScreenGui");
         local ImageButton = Instance.new("ImageButton");
         local UICorner = Instance.new("UICorner");
