@@ -1798,6 +1798,7 @@ end
 
 function OrionLib:Destroy()
 	Orion:Destroy()
+        OpenUI:Destroy()
 end
 
 return OrionLib
