@@ -693,12 +693,11 @@ function OrionLib:MakeWindow(WindowConfig)
                 Time = 5
             })
             WindowConfig.CloseCallback()
-        else
             if Image.MouseButton1Click:Connect() and UIHidden then
                 MainWindow.Visible = true
-           
-        end
+           end
         end)
+        end
     end)
         
         
